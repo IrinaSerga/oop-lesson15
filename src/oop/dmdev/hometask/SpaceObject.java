@@ -6,6 +6,7 @@ public abstract class SpaceObject implements Describable { // наследуем
     private final double weight;
     private double distance;
 
+    //distance это дистанция от чего? по факту это поле ут не надо, так как эта характеристика чисто субъективная
 
     // конструктор класса
     public SpaceObject(String name, double weight) {
